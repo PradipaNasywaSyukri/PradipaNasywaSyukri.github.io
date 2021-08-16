@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/png" href="img/pp.jpg">
+    <link rel="icon" type="image/png" href="img/pp.jpg" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
@@ -65,12 +65,16 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>About Me</h2>
+            <h2 class="fw-bold">About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-4">
-            <p>Hello, my name is Pradipa Nasywa Syukri. I'm 15 years old. Currently I'm still in class 1 of Madrasah Aliyah Al-Muttaqin majoring in social science.</p>
+            <p>
+              Hello, my name is <b>Pradipa Nasywa Syukri</b>. I'm 16 years old. Born and live in
+              <a target="blank" href="https://goo.gl/maps/SqQ83Wpocrbytkt2A" class="text-decoration-none text-dark fw-bold">Medan, North Sumatera, Indonesia</a>. Currently I'm still in class 2 at
+              <a target="blank" href="https://goo.gl/maps/AH7craPDag1LMs3y7" class="text-decoration-none text-dark fw-bold">Madrasah Aliyah Al-Muttaqin</a> majoring in social science.
+            </p>
           </div>
           <div class="col-md-4">
             <p>Currently I'm learning and deepening the knowledge of front-end developers by self-taught. I hope that in the future I can be master front-end and become a expert in this field.</p>
@@ -92,41 +96,52 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>My Projects</h2>
+            <h2 class="fw-bold">My Projects</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <a href="https://pradipanasywasyukri.github.io/pradipa-notepad/" target="_blank">
-                <img src="img/notepad.png" class="card-img-top" alt="Projects 1"/>
-              </a>
-              <div class="card-body">
-                <p class="card-text text-center fw-bold" >Notepad</p>
-                  <p class="text-center">Simple notepad that I created using html and css</p>
+            <div class="card h-100">
+              <img src="img/notepad.png" class="card-img-top" alt="Project 1" />
+              <div class="card-body text-center">
+                <p class="card-title fw-bold">Notepad</p>
+                <p class="card-text">Simple notepad. Made with HTML & CSS</p>
+                <a href="https://github.com/PradipaNasywaSyukri/pradipa-notepad" target="_blank">
+                  <button type="button" class="btn btn-primary bi bi-github">Github</button>
+                </a>
+                <a href="https://pradipanasywasyukri.github.io/pradipa-notepad/" target="_blank">
+                  <button type="button" class="btn btn-primary bi bi-link-45deg">Demo</button>
+                </a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <a href="https://pradipanasywasyukri.github.io/pradipa-dark-mode/" target="_blank">
-                <img src="img/dark mode.png" class="card-img-top" alt="Projects 2" />
-              </a>
-              <div class="card-body">
-                <p class="card-text text-center fw-bold">Dark mode</p>
-                  <p class="text-center">Simple dark mode that I created using html and css</p>
+            <div class="card h-100">
+              <img src="img/dark mode.png" class="card-img-top" alt="Project 2" />
+              <div class="card-body text-center">
+                <p class="card-title fw-bold">Dark Mode</p>
+                <p class="card-text">Simple dark mode. Made with HTML & CSS</p>
+                <a href="https://github.com/PradipaNasywaSyukri/pradipa-dark-mode" target="_blank">
+                  <button type="button" class="btn btn-primary bi bi-github">Github</button>
+                </a>
+                <a href="https://pradipanasywasyukri.github.io/pradipa-dark-mode/" target="_blank">
+                  <button type="button" class="btn btn-primary bi bi-link-45deg">Demo</button>
+                </a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <a href="https://pradipanasywasyukri.github.io/pradipa-solar-eclipse-animation/" target="_blank">
-                <img src="img/gerhana matahari.png" class="card-img-top" alt="Projects 3" />
-              </a>
-              <div class="card-body">
-                <p class="card-text text-center fw-bold">Solar eclipse animation</p>
-                  <p class="text-center">Simple solar eclipse animation that I created using html and css</p>
-                </p>
+            <div class="card h-100">
+              <img src="img/gerhana matahari.png" class="card-img-top" alt="Project 3" />
+              <div class="card-body text-center">
+                <p class="card-title fw-bold">Solar Eclipse Animation</p>
+                <p class="card-text">Simple solar eclipse animation. Made with HTML & CSS</p>
+                <a href="https://github.com/PradipaNasywaSyukri/pradipa-solar-eclipse-animation" target="_blank">
+                  <button type="button" class="btn btn-primary bi bi-github">Github</button>
+                </a>
+                <a href="https://pradipanasywasyukri.github.io/pradipa-solar-eclipse-animation/" target="_blank">
+                  <button type="button" class="btn btn-primary bi bi-link-45deg">Demo</button>
+                </a>
               </div>
             </div>
           </div>
@@ -140,14 +155,14 @@
         ></path>
       </svg>
     </section>
-    <!--Akhir Projets-->
+    <!-- Akhir Projets -->
 
     <!--Awal Contact-->
     <section id="contact">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>Contact Me</h2>
+            <h2 class="fw-bold">Contact Me</h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -197,27 +212,30 @@
 
     <!--Awal Footer-->
     <footer class="bg-primary text-white text-center pb-5">
-      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a class="text-decoration-none fw-bold text-light">Pradipa Nasywa Syukri</a></p>
+      <p>
+        Created with <i class="bi bi-heart-fill text-danger"></i> by
+        <a class="text-decoration-none fw-bold text-light">Pradipa Nasywa Syukri</a>
+      </p>
     </footer>
     <!--Akhir Footer-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
     <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbxVvpUXSjyEyQc7UX2FE8Axbkw5Ey-KLidbf7L6eg3-46l_JIoiFKT15RGXLg5F4XpC/exec'
-      const form = document.forms['pradipa-contact-form']
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxVvpUXSjyEyQc7UX2FE8Axbkw5Ey-KLidbf7L6eg3-46l_JIoiFKT15RGXLg5F4XpC/exec';
+      const form = document.forms['pradipa-contact-form'];
       const btnKirim = document.querySelector('.btn-kirim');
       const btnLoading = document.querySelector('.btn-loading');
       const myAlert = document.querySelector('.my-alert');
-    
-      form.addEventListener('submit', e => {
-        e.preventDefault()
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
         // ketika tombol submit diklik
         // tampilkan tombol loading, hilangkan tombol kirim
         btnLoading.classList.toggle('d-none');
         btnKirim.classList.toggle('d-none');
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => {
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then((response) => {
             // tampilkan tombol kirim, hilangkan tombol loading
             btnLoading.classList.toggle('d-none');
             btnKirim.classList.toggle('d-none');
@@ -225,11 +243,10 @@
             myAlert.classList.toggle('d-none');
             // reset formnya
             form.reset();
-            console.log('Success!', response)
+            console.log('Success!', response);
           })
-          .catch(error => console.error('Error!', error.message))
-      })
+          .catch((error) => console.error('Error!', error.message));
+      });
     </script>
-
   </body>
 </html>
